@@ -101,9 +101,6 @@ namespace ShoppingInterview
           ShowTotal();
           MainMenuReturn();
           break;
-        case 5:
-          _cart.RemoveItem(new Item() { Price = 5, Sku = "asd" });
-          break;
         case 0:
           MainMenu();
           return;
